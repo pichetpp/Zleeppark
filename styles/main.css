@@ -4729,7 +4729,11 @@ code::after {
   }
   .footer-menu { 
     font-size: 18px; 
-}
+  }
+
+  .btn-cpap {
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 1180px) { 
