@@ -4723,8 +4723,7 @@ code::after {
 
 
 }
-@media (max-width: 1024px) {
-  
+@media (max-width: 1180px) { 
   .header-topic { font-size: 44px;}
   .header-topic-2 { font-size: 32.6666px;}
   .detail-text { font-size: 16px; }
