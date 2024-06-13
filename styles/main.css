@@ -4709,10 +4709,10 @@ code::after {
   .circle-top img {position: absolute;top: -130px;right: 17px;}
   .header-topic-3 { font-size: 33.3333px;  line-height: 53px;}
   .our-review-detail {font-size:16.6667px;}
-      .col-25 {
+  .col-25 {
         flex: 0 0 auto;
         width: 45%;
-    }
+  }
   .btn-green-large{font-size: 14px;}
 
   .mt-20 {margin-top: 4rem;}
@@ -4720,9 +4720,18 @@ code::after {
   .footer-topic { font-size: 18px; }
   .social-icons {margin-left: -2.5rem;}
   .footer-menu{font-size: 18px} 
-
-
+ 
 }
+@media (width : 820px) {
+ .col-25 {
+        flex: 0 0 auto;
+        width: 45%;
+  }
+  .footer-menu { 
+    font-size: 18px; 
+}
+}
+
 @media (max-width: 1180px) { 
   .header-topic { font-size: 44px;}
   .header-topic-2 { font-size: 32.6666px;}
@@ -4736,6 +4745,7 @@ code::after {
   .doctors-detail { font-size: 18px; }
   .circle-top img {position: absolute;top: -130px;right: 53px;}
   .nav-link { font-size: 16px; }
+
 }
 @media (min-width: 1280px) {
 
