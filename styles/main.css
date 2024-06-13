@@ -4460,9 +4460,9 @@ code::after {
 .detail-text-service
 {
     font-family: 'gotham_roundedbold','Sukhumvit', sans-serif; 
-    font-size: 25px;
+    font-size: 23px;
     line-height: 26px;
-    padding: 30px 0px 10px 30px;
+    padding: 15px 10px 10px 20px;
 }
 
 .detail-text-xsmall
