@@ -30,16 +30,41 @@
 
   //banner
   new Swiper(".banner-carousel",  {
+ 
     slidesPerView: 1,
     pagination: {
       el: ".banner-carousel-pagination",
       type: "bullets",
       clickable: true,
     },
+  }); 
+
+
+ //our-review-detail-carousel
+  new Swiper(".our-review-detail-carousel", {
+    grid: {
+      rows: 2,
+    },
+    loop: true,
+    spaceBetween: 0,  
+     // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+        slidesPerGroup : 3
+      },
+      992: {
+        slidesPerView: 3,
+        slidesPerGroup : 3
+      },
+    },
   });
 
-
-  //doctors-carousel
+  //our-review-carousel
   new Swiper(".our-review-carousel", {
     loop: true,
     spaceBetween: 0,

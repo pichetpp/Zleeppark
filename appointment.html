@@ -58,13 +58,15 @@
 <script type="text/javascript" src="assets/js/mod_components.js?v=20190407"></script>
 <script type="text/javascript" src="assets/js/config_web.js?v=20190407"></script>
 <!-- Main Stylesheet -->
+
+
 <link href="styles/main.css" rel="stylesheet" />
 </head>
 <header class="header">
   <nav class="navbar container">
     <!-- logo -->
     <div class="order-0  lg:block hidden sm:hidden md:hidden">
-      <a href="index.html">
+      <a href="default.html">
         <img src="images/home/zleeppark_logo_top.png"  alt="logo" />
       </a>
     </div>
@@ -74,7 +76,7 @@
   </nav>
   <nav class="navbar container"> 
     <div class="order-0 lg:hidden md:block">
-      <a href="index.html">
+      <a href="default.html">
         <img src="images/home/zleeppark_logo_top.png"  alt="logo" />
       </a>
     </div>
@@ -149,7 +151,57 @@
   </nav>
 </header>
 <script type="text/javascript" src="pagescript/menu.js"></script>
- 
+
+
+<!-- aboutus2 -->
+<div class="container">
+  <section class="row section-2 appointment"> 
+     <div class="col-12 mt-6 md:col-12 lg:col-6">
+         <div class="image-container-appointment">
+                <img src="images/home/appointment.png" class="curved-image-appointment" >
+          </div>
+      </div> 
+      <div class="col-12  md:col-12 mt-10 lg:col-6 appointment-right">  
+          <div class="ml-10">
+            <span class="header-topic">Appointment</span>  
+          </div>
+        
+          <form class="lg:max-w-[484px] mt-16 ml-10" action="#" method="POST">
+          <div class="form-group mb-4">
+            <label class="form-label appointment-detail" for="name">ชื่อ</label>
+            <input class="form-control-orange form-control" type="text" id="name" placeholder="">
+          </div>
+          <div class="form-group mb-4">
+            <label class="form-label appointment-detail" for="name">นามสกุล</label>
+            <input class="form-control-purple form-control" type="text" id="name" placeholder="">
+          </div>
+          <div class="form-group mb-4">
+            <label class="form-label appointment-detail" for="eamil">Line ID</label>
+            <input class="form-control-red form-control" type="text" id="email" placeholder="">
+          </div>
+           <div class="form-group mb-4">
+            <label class="form-label appointment-detail" for="eamil">เบอร์โทร</label>
+            <input class="form-control-green form-control" type="text" id="email" placeholder="">
+          </div> 
+          <div class="form-group mb-4">
+            <label class="form-label appointment-detail" for="message">ปัญหา / อาการเบื้องต้น</label>
+            <textarea class="form-control-orange-text-area form-control h-[120px]" id="message" cols="30" rows="10"></textarea>
+          </div>
+          <input class=" btn-yellow-appointment btn-primary block sm:inline-block " type="button" value="ส่งข้อมูล">
+        </form>
+
+       
+
+        
+
+      </div>
+     
+  </section>
+</div>
+<!-- ./aboutus2 -->
+
+
+
 <!-- Contact Us -->
 <div class="container">
   <section class="row section contact-us"> 
@@ -196,7 +248,7 @@
                   </div>
               </div>
               <div class="mt-12 md:col-6 lg:col-5 lg:mt-12 text-right" > 
-                <a class="btn-green-large btn-primary block sm:inline-block " href="#">สอบถามเพิ่มเติมหรือทำนัดกับเรา</a>
+                <a class="btn-green-large btn-primary block sm:inline-block " href="appointment.html">สอบถามเพิ่มเติมหรือทำนัดกับเรา</a>
               </div>
             </div>
           </div>
@@ -293,7 +345,9 @@
 <!-- jQuery -->
 <!-- <script src="plugins/jquery/jquery.min.js"></script> -->
 <!-- Swiper JS -->
-<script src="plugins/swiper/swiper-bundle.js"></script>
+<script src="plugins/swiper/swiper-bundle.js"></script> 
+
+
 <script src="plugins/shufflejs/shuffle.js"></script>
 
 <!-- Main Script -->
