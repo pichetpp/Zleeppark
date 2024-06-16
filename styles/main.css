@@ -5048,6 +5048,7 @@ code::after {
     font-family: 'gotham_roundedbold','Sukhumvit', sans-serif; 
     font-size: 20px;   
     width: 95%;
+    text-wrap: wrap;
 }
 
 .btn-blog-detail-previous {
@@ -5092,8 +5093,11 @@ code::after {
 }
 
   
-  
-
+.curve-cpap {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+}
 @media (width <= 540px) {
     .btn-green-large{
       padding-left: 1.25rem;
