@@ -78,7 +78,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: 'Sukhumvit','gotham_roundedlight',ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-family: 'gotham_roundedlight','Sukhumvit',ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -158,7 +158,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: 'Sukhumvit','gotham_roundedlight',ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-family: 'gotham_roundedlight','Sukhumvit',ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
   font-feature-settings: normal; /* 2 */
   font-variation-settings: normal; /* 3 */
   font-size: 1em; /* 4 */
@@ -643,7 +643,7 @@ select {
   background-color: rgb(226 226 235);
   background-size: cover;
   background-repeat: no-repeat;
-  font-family: 'Sukhumvit','gotham_roundedlight', sans-serif;
+  font-family: 'gotham_roundedlight','Sukhumvit', sans-serif;
   font-weight: 400;
   line-height: 1.625;
   --tw-text-opacity: 1;
@@ -655,7 +655,7 @@ select {
   h4,
   h5,
   h6 {
-  font-family: 'Sukhumvit','gotham_roundedlight', sans-serif;
+  font-family: 'gotham_roundedlight','Sukhumvit', sans-serif;
   font-weight: 500;
   line-height: 1.25;
   --tw-text-opacity: 1;
@@ -848,7 +848,7 @@ select {
 @media (min-width: 1536px) {
 
   .container {
-    max-width: 1536px;
+    max-width: 1280px;
   }
 }
 .form-input,.form-textarea,.form-select,.form-multiselect {
@@ -985,7 +985,7 @@ select {
 .container {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1366px;
+  max-width: 1280px;
   padding-left: 0rem;
   padding-right: 0rem;
 }
@@ -1106,7 +1106,7 @@ select {
 .form-label {
   margin-bottom: 0.5rem;
   display: block;
-  font-family: 'Sukhumvit','gotham_roundedlight', sans-serif;
+  font-family: 'gotham_roundedlight','Sukhumvit', sans-serif;
   --tw-text-opacity: 1;
   color: rgb(85 85 85 / var(--tw-text-opacity));
 }
@@ -1757,7 +1757,7 @@ select:invalid {
 }
 .footer h6 {
   margin-bottom: 1rem;
-  font-family: 'Sukhumvit','gotham_roundedlight', sans-serif;
+  font-family: 'gotham_roundedlight','Sukhumvit', sans-serif;
   font-weight: 600;
 }
 @media (min-width: 1024px) {
@@ -1770,7 +1770,7 @@ select:invalid {
 .gradient-number span {
   -webkit-background-clip: text;
           background-clip: text;
-  font-family: 'Sukhumvit','gotham_roundedlight', sans-serif;
+  font-family: 'gotham_roundedlight','Sukhumvit', sans-serif;
   font-size: 2.25rem;
   line-height: 2.5rem;
   font-weight: 700;
@@ -2129,7 +2129,7 @@ select:invalid {
   padding-left: 1.5rem;
 }
 .features-tab-item h2 {
-  font-family: 'Sukhumvit','gotham_roundedlight', sans-serif;
+  font-family: 'gotham_roundedlight','Sukhumvit', sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
@@ -3198,7 +3198,7 @@ input#nav-toggle:checked ~ #nav-menu {
   text-align: center;
 }
 .font-primary {
-  font-family: 'Sukhumvit','gotham_roundedlight', sans-serif;
+  font-family: 'gotham_roundedlight','Sukhumvit', sans-serif;
 }
 .text-2xl {
   font-size: 1.5rem;
