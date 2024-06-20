@@ -979,7 +979,7 @@ select {
   padding-bottom: 4rem;
 }
 .section-2 {
-  padding-top: 6rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
 }
 .container {
@@ -2348,7 +2348,7 @@ input#nav-toggle:checked ~ #nav-menu {
   --tw-text-opacity: 1;
   background-color: #6967B0;
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 1em;
 }
 .btn-primary:hover {
@@ -2656,6 +2656,9 @@ input#nav-toggle:checked ~ #nav-menu {
 }
 .mt-16 {
   margin-top: 4rem;
+}
+.mt-18 {
+  margin-top: 5rem;
 }
 .mt-20 {
   margin-top: 8rem;
@@ -3834,8 +3837,7 @@ code::after {
 }
 
 .aboutus {
-  background-color: #ffffff;
-  border: 1px solid transparent;
+  background-color: #ffffff; 
   border-color: #fafafa75;
 }
 
@@ -4028,9 +4030,9 @@ code::after {
 
 .frame {
     position: relative;
-    margin-top: 50px;
+    margin: 0px 50px 0px 0px;
     background-color: #FFFFFF;
-    padding: 40px 20px 40px 40px;
+    padding: 40px 20px 20px 40px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
@@ -4040,7 +4042,7 @@ code::after {
 .circle-top img{
     position: absolute;
     top: -130px;
-    right: 100px;
+    right: 46px;
 }
 
 .service-text {
@@ -4050,6 +4052,8 @@ code::after {
     color: #6967B0; 
 }
 
+
+
 .services {
     padding-left: 1.0em;
     padding-right: 1.0em;
@@ -4057,6 +4061,92 @@ code::after {
     padding-bottom: 1rem;
 }
 
+.services-blog-large {
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 1 rem;
+    padding-bottom: 1rem;
+}
+
+
+.services-blog-large {
+   margin:0px;
+}
+
+.swiper-slide.blog-first.swiper-slide-prev{
+  display: none;
+}
+
+.swiper-button-prev-blog,
+.swiper-button-next-blog {
+  position: absolute;
+  top: 200px;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+  z-index: 10;
+  cursor: pointer; 
+  align-items: center;
+  justify-content: center;
+  color: var(--swiper-navigation-color, var(--swiper-theme-color));
+}
+.swiper-button-prev-blog.swiper-button-disabled,
+.swiper-button-next-blog.swiper-button-disabled {
+  opacity: 0.35;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-prev-blog.swiper-button-hidden,
+.swiper-button-next-blog.swiper-button-hidden {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-navigation-disabled .swiper-button-prev-blog,
+.swiper-navigation-disabled .swiper-button-next-blog {
+  display: none !important;
+}
+.swiper-button-prev-blog:after,
+.swiper-button-next-blog:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+.swiper-button-prev-blog,
+.swiper-rtl .swiper-button-next-blog {
+  left: 0px;
+  right: auto;
+}
+.swiper-button-prev-blog:after,
+.swiper-rtl .swiper-button-next-blog:after {
+  content: "prev";
+}
+.swiper-button-next-blog,
+.swiper-rtl .swiper-button-prev-blog {
+  right: 0px;
+  left: auto;
+}
+.swiper-button-next-blog:after,
+.swiper-rtl .swiper-button-prev-blog:after {
+  content: "next";
+}
+
+ 
+.services-blog {
+   margin:0px 10px 40px 40px
+}
+
+.swiper-slide-blog {
+    flex-shrink: 0;
+    width: 100%; 
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+ }
+ 
 .services-carousel .swiper-pagination-bullet {
   height: 0.875rem;
   width: 0.875rem;
@@ -4392,7 +4482,7 @@ code::after {
 
 
 .btn-s4 {
-  font-family: 'gotham_roundedbold','Sukhumvit', sans-serif; 
+  font-family: 'gotham_roundedmedium','Sukhumvit', sans-serif; 
   font-size: 21.3333px;
   padding-left: 4rem;
   padding-right: 4rem;
@@ -4608,6 +4698,19 @@ code::after {
     color: #FFFFFF;
 }
 
+.our-blog-carousel .swiper-pagination-bullet {
+  height: 0.875rem;
+  width: 0.875rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(141 141 141 / var(--tw-bg-opacity));
+}
+.our-blog-carousel .swiper-pagination-bullet-active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 96 25 / var(--tw-bg-opacity));
+}
+ 
+
+
 .our-review-carousel .swiper-pagination-bullet {
   height: 0.875rem;
   width: 0.875rem;
@@ -4628,11 +4731,11 @@ code::after {
 
 
 .header-text-service {
-    font-size: 35px;  
+    font-size: 60px;
     color: #000000;
-    font-family: 'gotham_roundedbold','Sukhumvit', sans-serif;  
+    font-family: 'gotham_roundedbold', 'Sukhumvit', sans-serif;
+    line-height: 70px;
 }
-
 .header-text2-service {
     font-size: 30px;  
     color: #000000;
@@ -4679,9 +4782,11 @@ code::after {
 }
 
 .service-over-img { 
-  margin-top: -230px;
+  margin-top: -165px;
   float:right;
   position: relative;
+  width: 130px;
+  right: 125px;
 } 
 
 
@@ -4788,7 +4893,7 @@ code::after {
 
 
 .header-text-large {
-    font-size: 60px;  
+    font-size: 62px;  
     font-family: 'gotham_roundedbold','Sukhumvit', sans-serif;  
 }
 
@@ -4797,11 +4902,18 @@ code::after {
     font-family: 'gotham_roundedbold','Sukhumvit', sans-serif;  
 }
 
+.detail-text-about-us2 {
+    font-family: 'gotham_roundedbold','Sukhumvit', sans-serif; 
+    font-size: 24px;  
+    line-height: 27px;
+
+}
 
 .detail-text {
     font-family: 'gotham_roundedbold','Sukhumvit', sans-serif; 
     font-size: 24px;  
-    line-height: 33px;
+    line-height: 32px;
+
 }
 
 .detail-text-small{
@@ -4819,7 +4931,7 @@ code::after {
 
 .detail-text-xsmall{
     font-family: 'gotham_roundedbold','Sukhumvit', sans-serif; 
-    font-size: 14px;   
+    font-size: 17px;   
 }
 
 
@@ -4909,7 +5021,7 @@ code::after {
   }
 
 .btn-orange-service { 
-  font-family: 'gotham_roundedbold','Sukhumvit', sans-serif; 
+  font-family: 'gotham_roundedbook','Sukhumvit', sans-serif; 
   display: inline-block;
   height: 30px;
   border-width: 1px;
@@ -4919,7 +5031,7 @@ code::after {
   padding-bottom: 0.5rem;
   font-size: 14px;
   line-height: 1.25rem;
-  font-weight: 700; 
+  font-weight: 500; 
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms; 
@@ -5026,9 +5138,14 @@ code::after {
   }
 
 
-.image-container-appointment { 
+.image-container-aboutus2 { 
     overflow: hidden;
-    margin-left: 60px;
+    margin-left: 30px;
+}
+
+
+.image-container-appointment { 
+    overflow: hidden; 
 }
 
 .curved-image-appointment {
@@ -5092,6 +5209,32 @@ code::after {
     width: 100%;
 }
 
+.container_bg {
+    position: relative;
+    width: 600px; /* Set the width of the container */
+    height: 600px; /* Set the height of the container */
+}
+
+
+ 
+
+.mask1 {
+  -webkit-mask-image: url(../images/home/bg_AboutUs_2.png);
+  mask-image: url(../images/home/bg_AboutUs_2.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;    
+  -webkit-mask-size: 100% 100%;
+    -webkit-mask-repeat: no-repeat;v
+}
+
+.appointment_image {
+    position: relative;
+    float: right;
+    width: 120px;
+    right: 80px;
+    top: -65px;
+}
+ 
   
 .curve-cpap {
     position: absolute;
@@ -5099,6 +5242,15 @@ code::after {
     right: 1px;
 }
 @media (width <= 540px) {
+
+  .image-container-appointment {
+    overflow: hidden;
+    margin-left: 0px; 
+  }
+  .appointment_image {
+   display: none; 
+  }
+
     .btn-green-large{
       padding-left: 1.25rem;
       padding-right: 1.25rem;
@@ -5143,12 +5295,17 @@ code::after {
   .detail-text-service{ font-size: 24px;   padding: 20px 0px 0px 10px;}
   .footer-menu{font-size: 20px}
   .mt-20{margin-top: 1rem;}
-
+ .image-container {
+     margin-left: 60px; 
+    }
 }
 
 
 
 @media (width : 768px) {
+   .image-container {
+     margin-left: 60px; 
+    }
   .header-topic { font-size: 51px;}
   .header-topic-2 { font-size: 36.6666px;}
   .doctors-detail { font-size: 20px; }
@@ -5183,12 +5340,18 @@ code::after {
   .btn-cpap {
     font-size: 20px;
   }
+   .image-container {
+     margin-left: 60px; 
+    }
 }
 
 @media (max-width: 1180px) { 
+   .image-container {
+     margin-left: 60px; 
+    }
   .header-topic { font-size: 44px;}
   .header-topic-2 { font-size: 32.6666px;}
-  .detail-text { font-size: 16px; }
+  .detail-text { font-size: 16px;line-height: 25px; }
   .our-review-detail {font-size:17.6667px;}
   .detail-text-contactus { font-size: 16px;}
   .header-topic-3 { font-size: 33.3333px;  line-height: 53px;}
@@ -5227,10 +5390,20 @@ code::after {
     .lg\:overflow-auto {
         overflow: auto;
     }
+  
 }
 @media (min-width: 1024px) {
     .lg\:max-h-96 {
-        max-height: 48rem;
+        max-height: 61rem;
+    }
+    .lg\:min-h-96 {
+        min-height: 61rem;
+    }
+    .lg\:max-h-12 {
+        max-height: 24rem;
+    }
+    .lg\:min-h-12 {
+        min-height: 24rem;
     }
 }
 

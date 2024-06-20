@@ -62,7 +62,55 @@
         slidesPerGroup : 3
       },
     },
+
   });
+
+
+  //services-carousel
+  new Swiper(".our-blog-detail-carousel", { 
+    spaceBetween: 20, 
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 1,
+      },
+      1100: {
+        slidesPerView: 4,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 2,
+      },
+    }, 
+  });
+  //services-carousel
+  new Swiper(".our-blog-carousel", { 
+    spaceBetween: 20, 
+    navigation: {
+      nextEl: '.swiper-button-next-blog',
+      prevEl: '.swiper-button-prev-blog',
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 1,
+      },
+      1100: {
+        slidesPerView: 4,
+      },
+      1024: {
+        slidesPerView: 4,
+      },
+      992: {
+        slidesPerView: 2,
+      },
+    }, 
+  });
+    
 
   //our-review-carousel
   new Swiper(".our-review-carousel", {
